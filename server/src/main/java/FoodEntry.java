@@ -47,4 +47,23 @@ public class FoodEntry {
     public String addIngredient(String newIngredient) {
         return "";
     }
+    
+    public Object newFoodEntry(String foodLabel, double calories, String cateogry, String date, String uid) {
+        /*
+            Not sure how the collections are setup, can't seem to access the Firebase console so here is the proposed solution
+            
+            => Payload / what GET call should return for each data entry
+                {
+                    foodLabel: foodlabel,
+                    calories: calories,
+                    category: category,
+                    dateTime: date,
+                    uid: uid
+                }
+        */
+        
+        // Left this funciton as an return type of Object/Map so we can return the response from Firebase to the UI when this endpoint is called
+        
+        
+    }
 }
