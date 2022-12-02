@@ -6,10 +6,20 @@ Frontend for the NuCo nutrition app.
 
 Add `config.json` to the root `client` folder. Run `yarn install` then start with `yarn dev`.
 
-Default username/password:
+User
 
-U: johndoe
-P: password
+* U: johndoe
+* P: password
+
+Coach
+
+* U: coachtyler
+* P: password
+
+Admin
+
+* U: admin
+* P: password
 
 ## Database Format
 
