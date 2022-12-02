@@ -10,3 +10,15 @@ Default username/password:
 
 U: johndoe
 P: password
+
+## Database Format
+
+### Collection `users`
+
+```json
+{
+    "username": "string",
+    "password": "string",
+    "role": "[user, coach, admin]"
+}
+```

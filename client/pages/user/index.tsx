@@ -1,8 +1,9 @@
 import Image from 'next/image';
+import React from 'react';
 
 import { initializeApp } from 'firebase/app';
 import { getFirestore, query, collection, where, getDocs } from 'firebase/firestore';
-import firebaseConfig from '../config.json';
+import firebaseConfig from '../../config.json';
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);

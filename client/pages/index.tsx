@@ -88,6 +88,16 @@ export default function Home() {
                 <button onClick={login}>Login</button>
                 <p style={{ color: '#B70000' }}>{error}</p>
             </div>
+            <div style={{ position: 'fixed', right: '3%', top: '5%' }}>
+                <Link href="/coach" style={{ color: '#DEDBFF', fontSize: '2rem' }}>
+                    Coach Login
+                </Link>
+                <br />
+                <div style={{ height: '0.5rem' }} />
+                <Link href="/admin" style={{ color: '#d4baf7', fontSize: '2rem' }}>
+                    Admin Login
+                </Link>
+            </div>
         </div>
     );
 }
