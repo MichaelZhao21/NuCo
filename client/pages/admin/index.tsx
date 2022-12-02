@@ -8,7 +8,7 @@ import firebaseConfig from '../../config.json';
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-export default function AdminLogin() {
+export default function Admin() {
     return (
         <div style={{ position: 'absolute', zIndex: -100, width: '100vw', height: '100vh' }}>
             <Image
@@ -26,7 +26,7 @@ export default function AdminLogin() {
                     height: '100%',
                 }}
             >
-                User Dashboard
+                Admin Dashboard
             </div>
         </div>
     );

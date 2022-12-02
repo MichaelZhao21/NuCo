@@ -8,7 +8,7 @@ import firebaseConfig from '../../config.json';
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-export default function CoachLogin() {
+export default function Coach() {
     return (
         <div style={{ position: 'absolute', zIndex: -100, width: '100vw', height: '100vh' }}>
             <Image
@@ -26,7 +26,7 @@ export default function CoachLogin() {
                     height: '100%',
                 }}
             >
-                User Dashboard
+                Coach Dashboard
             </div>
         </div>
     );
