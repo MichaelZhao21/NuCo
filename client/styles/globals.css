@@ -1,0 +1,33 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: JetBrains Mono, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: white;
+}
+
+button {
+  color: white;
+  font-family: JetBrains Mono, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #6D58FC;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.2s background-color;
+}
+
+button:hover {
+  background-color: #a395fc;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
