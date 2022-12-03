@@ -8,7 +8,7 @@ export default function Password() {
                 src="/background.png"
                 fill
                 alt="background"
-                style={{ objectFit: 'cover', zIndex: -100 }}
+                style={{ backgroundSize: 'contain': 'cover', zIndex: -100 }}
             />
             <div
                 style={{
