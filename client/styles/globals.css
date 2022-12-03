@@ -31,3 +31,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+div > .coach:nth-of-type(even) {
+  background-color: #C9C9C9;
+}
+
+div > .coach:nth-of-type(odd) {
+  background-color: #AFAFAF;
+}

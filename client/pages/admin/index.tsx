@@ -26,7 +26,7 @@ export default function Admin() {
                     height: '100%',
                 }}
             >
-                Admin Dashboard
+                Admin Dashboard WIP
             </div>
         </div>
     );
